@@ -3,15 +3,15 @@
 Writes one line, at most 140 characters, inventing the most useless
 superpower imaginable, to /output/entry.txt.
 
-The power is useless by design: goldfish forget everything within
-seconds, so the conversation resets before it ever goes anywhere,
-and the only topic they ever raise is the plastic castle.
+The power is useless by design: three inches is barely a step, it only
+works on Tuesdays, and only when nobody is watching — so it can never
+help, impress, or even be proven.
 """
 
 import hashlib
 import os
 
-ENTRY = "I can talk to fish, but only goldfish, and all they ever want to discuss is the plastic castle."
+ENTRY = "I can teleport, but only three inches to the left, and only on Tuesdays when nobody is watching."
 
 
 def verify_output() -> None:
