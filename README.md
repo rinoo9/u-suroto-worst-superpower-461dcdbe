@@ -8,7 +8,7 @@ Entry for the [Worst Superpower bounty on make.fun](https://make.fun/bounty/u-su
 
 ## The entry
 
-> I can teleport, but only three inches to the left, and only on Tuesdays when nobody is watching.
+> I can stop time, but only for one second, and I always waste it blinking.
 
 ## How it works
 
@@ -31,14 +31,14 @@ python3 main.py
 sha256sum /output/entry.txt
 ```
 
-Both runs print `entry: 96 chars` and the output file hashes to:
+Both runs print `entry: 73 chars` and the output file hashes to:
 
 ```
-1afd959848eda688766b7a3cfc72a07eee52d0608e490fc5b48b88d93109e414
+498f7e406fcbea3add6ccd616aad4da823bc62b35fe7549351c199dc64dfc8ea
 ```
 
 The `verify_output()` function in `main.py` performs the same checks on every run: the line must be non-empty, at most 140 characters, and free of leading or trailing whitespace, and it prints the character count and sha256 digest before writing the file.
 
 ## Why this line works
 
-Teleportation sounds like the ultimate power until the fine print arrives: three inches is barely a step, it only works on Tuesdays, and only when nobody is watching — so it can never help, impress, or even be proven. It is a superpower that changes nothing for anyone, which is exactly what the bounty asks for.
+Stopping time sounds like the ultimate power until the fine print arrives: it lasts exactly one second, and the hero always spends it blinking — so it can never help, impress, or even be noticed. It is a superpower that changes nothing for anyone, which is exactly what the bounty asks for.

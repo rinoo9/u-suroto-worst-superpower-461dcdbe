@@ -3,15 +3,15 @@
 Writes one line, at most 140 characters, inventing the most useless
 superpower imaginable, to /output/entry.txt.
 
-The power is useless by design: three inches is barely a step, it only
-works on Tuesdays, and only when nobody is watching — so it can never
-help, impress, or even be proven.
+The power is useless by design: time stops for exactly one second, and
+the one thing the hero always does with it is blink — so it can never
+help, impress, or even be noticed.
 """
 
 import hashlib
 import os
 
-ENTRY = "I can teleport, but only three inches to the left, and only on Tuesdays when nobody is watching."
+ENTRY = "I can stop time, but only for one second, and I always waste it blinking."
 
 
 def verify_output() -> None:
